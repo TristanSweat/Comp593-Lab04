@@ -1,7 +1,6 @@
-
 import requests
 
-url = 'https://pokeapi.co/api/v2/pokemon/ivysaur/'
+url = 'https://pokeapi.co/api/v2/pokemon/moltres'
 
 def search_poke_api(search_term=''):
     
@@ -19,5 +18,4 @@ def search_poke_api(search_term=''):
         print('failure')
         print(f'Status code: {resp_msg.status_code}, Error reason: {resp_msg.reason}')
         return None
-id=search_poke_api('ivysaur')     
-pass
+id=search_poke_api('moltres')     

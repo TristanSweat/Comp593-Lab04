@@ -1,6 +1,6 @@
 import requests
-# Request a new PasteBin paste
 
+# Request a new PasteBin paste
 def post_new_paste(title, body_text, expiration='10M', listed=True):
     """
     Posts a new paste to PasteBin
