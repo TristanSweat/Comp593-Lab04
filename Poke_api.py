@@ -3,7 +3,11 @@ import requests
 url = 'https://pokeapi.co/api/v2/pokemon/moltres'
 
 def search_poke_api(search_term=''):
-    
+    """
+    Searches pokemon api for pokemon name and information
+
+    :param search_term: Searches term used in url and search_poke_api (Pokemon name)
+    """
     #Clean the search term
     search_term = str(search_term).strip().lower()
 
